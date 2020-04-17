@@ -1,4 +1,4 @@
-numbers = [5,2,1,3,4]
+const numbers = [5,2,1,3,4]
 
 const result = [5,2,1,3,4].reduce((prevElement,currentElement) => {
     return (prevElement + currentElement)
